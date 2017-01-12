@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>Title</title>
+    <script src="../lib/jquery-3.1.1.min.js"></script>
+    <style>
+        [type=number]{
+            width: 10rem;
+            height: 1rem;
+            box-sizing: content-box;
+        }
+        #number{
+            width: 100%;
+            height: 1rem;
+            line-height: 1rem;
+            background-color: #fff;
+        }
+        .number{
+            width: calc(10rem - 2px);
+            height: 1rem;
+            position: absolute;
+            top: 1px;
+            left: 1px;
+        }
+        #number + span{
+            position: absolute;
+            bottom: -2px;
+            font-size: calc(1rem - 1px);
+            visibility: hidden;
+        }
+        .hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<!--文本框只能输数字-->
+<div style="position: relative;">
+    <input type="number"/>
+    <div class="number hidden">
+        <div id="number"></div>
+        <span>|</span>
+    </div>
+</div>
+<script>
+    $(function () {
+        var val = '', T;
+        $('[type=number]').focus(function () {
+            var that = $('.number span');
+            $('.number').show();
+            T = setInterval(function () {
+                var flag = $(that).css('visibility') == 'hidden';
+                if(flag) $(that).css('visibility', 'visible');
+                else $(that).css('visibility', 'hidden')
+            }, 500);
+        }).change(function () {
+            $(this).val($('#number').text());
+            clearInterval(T);
+            $('.number span').css('visibility', 'hidden');
+            $('.number').hide();
+        });
+        $(window).keyup(function (event) {
+            var code = event.keyCode;
+            console.log(code);
+            var that = $('[type=number]');
+            var number = $(that).val();
+            if(!number && code != 8){
+                number = val;
+                $(that).val(val);
+            }
+            else{
+                val = number.replace('\.', '');
+            }
+            $('#number').text(val);
+            $('.number span').css('left', val.length/2 + 'rem');
+        });
+    });
+</script>
+</body>
+</html>
