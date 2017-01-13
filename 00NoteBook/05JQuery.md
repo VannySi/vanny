@@ -1,16 +1,36 @@
-# JQuery
-## JS与JQuery
-### JS存在的问题
+# JQuery 
+
+## 学习参考
+> [锋利的jQuery(第二版)]()  
+
+# 第1章 认识jQuery
+## 1.1 JS与JQuery
+### 1.1.1 JS存在的问题
 	1.window.onload事件存在覆盖问题，只能有一个
 	2.代码容错性差
 	3.浏览器兼容性问题
 	4.书写繁琐，代码量多
 	5.很难实现动画效果
-### JS和jQuery入口函数的区别：JS的window.onload事件需要等所有内容加载完毕后执行，而jQuery的ready在HTML标签全加载之后开始加载。
-### JS创建对象
-	1.var obj = {};
-	2.var obj = new Object();
-	3.var obj = Object.create();
+### 1.1.2 JS简介
+    JS和jQuery入口函数的区别：JS的window.onload事件需要等所有内容加载完毕后执行，而jQuery的ready在HTML标签全加载之后开始加载。
+    JS创建对象
+	    1.var obj = {};
+	    2.var obj = new Object();
+	    3.var obj = Object.create();
+## 1.2 jQuery的优势
+    1.轻量级
+    2.强大的选择器
+    3.DOM操作的封装
+    4.可靠的事件处理机制
+    5.完善的Ajax
+    6.不污染顶级变量
+    7.出色的浏览器兼容性
+    8.链式操作方法
+    9.隐式迭代
+    10.行为层与结构层的分离
+    11.丰富的插件支持
+    12.完善的文档
+    13.开源
 ## JQuery语法	
 ### 过滤选择器
 	:eq(index)	//选择第index个元素

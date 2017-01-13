@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc8cf65-6e8a-4449-affc-3c82f7afa356" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00NoteBook/09React.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02React/00basic-runoob.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react-dom-fiber.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react-dom-fiber.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react-dom-server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react-dom-server.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react-dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react-dom.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react-with-addons.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react-with-addons.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/build/react.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-click-counter/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-commonjs/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-commonjs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-commonjs/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-commonjs/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-commonjs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-jsx-external/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-jsx-external/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-jsx-harmony/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-jsx-precompile/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-jsx-precompile/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic-jsx/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/basic/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/fiber/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/jquery-bootstrap/css/example.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/jquery-bootstrap/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/jquery-bootstrap/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/jquery-mobile/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/jquery-mobile/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/jquery-mobile/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/quadratic/example.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/quadratic/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/shared/css/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/transitions/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/transitions/transition.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/react-15.4.0/examples/webcomponents/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/jquery-3.1.1.js" afterPath="$PROJECT_DIR$/lib/jquery-3.1.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00NoteBook/05JQuery.md" afterPath="$PROJECT_DIR$/00NoteBook/05JQuery.md" />
     </list>
     <ignored path="Vanny.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,8 +35,21 @@
         <entry file="file://$PROJECT_DIR$/00NoteBook/05JQuery.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="486">
-                <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+              <first_editor relative-caret-position="216">
+                <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="00Git.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00NoteBook/00Git.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="5" column="39" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="39" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -139,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03Question/recycling/environmental.html" />
         <option value="$PROJECT_DIR$/03Question/recycling/environmental-art.html" />
         <option value="$PROJECT_DIR$/03Question/recycling/hazardous-waste.html" />
         <option value="$PROJECT_DIR$/03Question/recycling/css/list.css" />
@@ -190,6 +158,7 @@
         <option value="&lt;3c08b6c7-2c89-4b8f-aa26-cb57bb40c3ee&gt;/resources/views/layouts/home.blade.php" />
         <option value="&lt;3c08b6c7-2c89-4b8f-aa26-cb57bb40c3ee&gt;/resources/views/business/js/socket.js" />
         <option value="$PROJECT_DIR$/09Order/shop/css/reset.css" />
+        <option value="$PROJECT_DIR$/00NoteBook/05JQuery.md" />
       </list>
     </option>
   </component>
@@ -400,12 +369,12 @@
       <workItem from="1483668686751" duration="1869000" />
       <workItem from="1483697599102" duration="599000" />
       <workItem from="1483924230411" duration="2240000" />
-      <workItem from="1484226642440" duration="890000" />
+      <workItem from="1484226642440" duration="2936000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419439000" />
+    <option name="totallyTimeSpent" value="421485000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +386,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18456884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -469,13 +438,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/09Order/shop/css/first.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/09Order/shop/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1748">
@@ -742,11 +704,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/00NoteBook/00Git.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="5" column="39" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="39" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/00NoteBook/05JQuery.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="486">
-            <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <first_editor relative-caret-position="216">
+            <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
             <folding />
           </first_editor>
           <second_editor />
