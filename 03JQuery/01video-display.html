@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>视频展示效果实例</title>
+    <style>
+        ul{
+            margin: 0;
+            padding: 0 12px;
+        }
+        li{
+            display: inline-block;
+            list-style: none;
+            padding: 20px 12px;
+        }
+        a{
+            color: #999;
+            text-decoration: none;
+        }
+        .v_show{
+            width: 865px;
+            border: 1px solid #333333;
+        }
+        .v_caption{
+            background-color: #eeeeee;
+        }
+        h2{
+            margin: 8px 10px 8px 24px;
+            display: inline-block;
+        }
+        .highlight_tip, .change_btn{
+            display: inline-block;
+        }
+        .highlight_tip span{
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            text-indent: -999px;
+            line-height: 10px;
+            margin: 0 3px;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+            background-color: #fff;
+        }
+        span.current{
+            background-color: #0fbdf8;
+        }
+        .change_btn{
+            margin-left: 10px;
+        }
+        .change_btn span{
+            display: inline-block;
+            width: 2rem;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #333333;
+        }
+        li a span{
+            width: 180px;
+            height: 100px;
+            display: inline-block;
+            text-align: center;
+            line-height: 100px;
+            border: 1px solid #eeeeee;
+        }
+        li:nth-child(n + 5){
+            display: none;
+        }
+        h4{
+            margin: 8px 0 5px;
+        }
+        h4 a{
+            color: #0fbdf8;
+        }
+    </style>
+</head>
+<body>
+<div class="v_show">
+    <div class="v_caption">
+        <h2 class="cartoon" title="卡通动漫">卡通动漫</h2>
+        <div class="highlight_tip">
+            <span class="current">1</span><span>2</span><span>3</span><span>4</span>
+        </div>
+        <div class="change_btn">
+            <span class="prev">&lt;</span>
+            <span class="next">&gt;</span>
+        </div>
+    </div>
+    <div class="v_content">
+        <div class="v_content_list">
+            <ul>
+                <li><a href="#"><span>1</span></a>
+                    <h4><a href="#">视频1</a></h4>
+                    <span>播放：<em>91</em></span></li>
+                <li><a href="#"><span>2</span></a>
+                    <h4><a href="#">视频2</a></h4>
+                    <span>播放：<em>92</em></span></li>
+                <li><a href="#"><span>3</span></a>
+                    <h4><a href="#">视频3</a></h4>
+                    <span>播放：<em>93</em></span></li>
+                <li><a href="#"><span>4</span></a>
+                    <h4><a href="#">视频4</a></h4>
+                    <span>播放：<em>94</em></span></li>
+                <li><a href="#"><span>5</span></a>
+                    <h4><a href="#">视频5</a></h4>
+                    <span>播放：<em>95</em></span></li>
+                <li><a href="#"><span>6</span></a>
+                    <h4><a href="#">视频6</a></h4>
+                    <span>播放：<em>96</em></span></li>
+                <li><a href="#"><span>7</span></a>
+                    <h4><a href="#">视频7</a></h4>
+                    <span>播放：<em>97</em></span></li>
+                <li><a href="#"><span>8</span></a>
+                    <h4><a href="#">视频8</a></h4>
+                    <span>播放：<em>98</em></span></li>
+                <li><a href="#"><span>9</span></a>
+                    <h4><a href="#">视频9</a></h4>
+                    <span>播放：<em>99</em></span></li>
+                <li><a href="#"><span>10</span></a>
+                    <h4><a href="#">视频10</a></h4>
+                    <span>播放：<em>910</em></span></li>
+                <li><a href="#"><span>11</span></a>
+                    <h4><a href="#">视频11</a></h4>
+                    <span>播放：<em>911</em></span></li>
+                <li><a href="#"><span>12</span></a>
+                    <h4><a href="#">视频12</a></h4>
+                    <span>播放：<em>912</em></span></li>
+                <li><a href="#"><span>13</span></a>
+                    <h4><a href="#">视频13</a></h4>
+                    <span>播放：<em>913</em></span></li>
+                <li><a href="#"><span>14</span></a>
+                    <h4><a href="#">视频14</a></h4>
+                    <span>播放：<em>914</em></span></li>
+                <li><a href="#"><span>15</span></a>
+                    <h4><a href="#">视频15</a></h4>
+                    <span>播放：<em>915</em></span></li>
+                <li><a href="#"><span>16</span></a>
+                    <h4><a href="#">视频16</a></h4>
+                    <span>播放：<em>916</em></span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../lib/jquery-3.1.1.min.js"></script>
+<script>
+
+</script>
+</html>
