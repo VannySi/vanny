@@ -18,5 +18,6 @@
 10. angularJs
 11. jquery过一遍 12.01~12.31
 12. BootStrap过一遍 待定
+13. ES6
 
 ## 存在疑问

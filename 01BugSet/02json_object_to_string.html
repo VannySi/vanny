@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON数据/对象转化为字符串</title>
+</head>
+<body>
+<script>
+//    const res = {
+//        'tableid' : 1,
+//        'shopid' : 2,
+//        'item' : 3,
+//        'userid' : 35454,
+//        'paytype' : 0,
+//        'remark' : 'sudyisyisd'
+//    };
+    let res = {
+        tableid : 1,
+        shopid : 3,
+        item : 'sdsds',
+        userid : ['sdgys','suytds','dgsy'],
+        paytype : 323,
+        remark : [{
+            tableid : 1,
+            shopid : 3,
+            item : 'sdsds',
+            userid : 'sfs',
+            paytype : 323,
+            remark : {
+                tableid : 1,
+                shopid : 3,
+                item : 'sdsds',
+                userid : 'sfs',
+                paytype : 323,
+                remark : 'gdgrgr'
+            }
+        },{
+            tableid : 1,
+            shopid : 3,
+            item : 'sdsds',
+            userid : 'sfs',
+            paytype : 323,
+            remark : 'gdgrgr'
+        }]
+    };
+    const a = ['1', '2'];
+    console.log(res.constructor.name)
+    function JSONString(obj) {
+        let str = '';
+        for(let i in obj){
+            console.log(obj[i].constructor.name=="Object")
+            if(obj[i].constructor.name=="Object") {
+                console.log(obj[i]);
+                str += '&' + i + '=' + JSONString(obj[i]);
+            } else {
+                str += '&' + i + '=' + obj[i];
+            }
+        }
+        str = str.substr(1, str.length - 1);
+        return str;
+//        console.log(str.substr(1, str.length - 1))
+    }
+    function obj2str(value, key){
+        var res = '';
+        if(typeof(value) == 'object'){
+            for(var i in value){
+                res += '&' + obj2str(value[i], key == undefined ? i : key + '[' + i + ']');
+            }
+        }else{
+            return key + '=' + encodeURI(value);
+        }
+        return res.substr(1, res.length);
+    }
+    window.onload = function () {
+        console.log(obj2str(res));
+    }
+</script>
+</body>
+</html>

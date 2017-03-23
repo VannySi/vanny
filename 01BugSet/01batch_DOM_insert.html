@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="con1"></div>
+	<div class="con2"></div>
+	<div class="con3"></div>
+	<script src="../lib/jquery-3.1.1.min.js"></script>
+	<script>
+		var type = 'ta';
+		var con1_0 = '111';
+		var con1_1 = '222';
+		var con1_2 = 'aysausa';
+		var arr = {
+			'con1' : {
+				'0': con1_0,
+				'1': con1_1,
+				'ta': con1_2
+			},
+			'con2' : {
+				'0': con1_0,
+				'1': con1_1,
+				'ta': con1_2
+			},
+			'con3' : {
+				'0': con1_0,
+				'1': con1_1,
+				'ta': con1_2
+			}
+		};
+		$.each(arr, function(i, val) {
+			$('.' + i).append(val[type]);
+		});
+	</script>
+</body>
+</html>
