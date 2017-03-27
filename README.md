@@ -12,7 +12,7 @@
 4. 面向对象
 5. 框架
 6. 主流框架
-7. 移动混合Appp基础
+7. 移动混合App基础
 8. NodeJs
 9. react
 10. angularJs
