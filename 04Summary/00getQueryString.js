@@ -1,7 +1,7 @@
 /**
- * »ñÈ¡Ò³ÃæÁ´½ÓÖĞµÄÊôĞÔ
- * @param key ÊôĞÔÃû
- * @param method ·½Ê½£¬href»òÕßhash£¬Ä¬ÈÏhref
+ * è·å–é¡µé¢é“¾æ¥ä¸­çš„å±æ€§
+ * @param key å±æ€§å
+ * @param method æ–¹å¼ï¼Œhrefæˆ–è€…hashï¼Œé»˜è®¤href
  * */
 function getQueryString(key, method) {
     var url = method == 'hash' ? window.location.hash : window.location.href;
