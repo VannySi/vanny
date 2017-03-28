@@ -1,7 +1,7 @@
 /**
  * 领取优惠券
  * */
-function sign() {
+function sign(url, itemId, userId) {
     /**
      * 获取活动的卡券
      * @URL
@@ -9,10 +9,9 @@ function sign() {
      * @param userid 用户id
      * @return
      */
-    var url = '';
     var res = {
-        itemid: '',
-        userid: ''
+        itemid: itemId,
+        userid: userId
     };
     //获取优惠券token
     $.post(url, res, function(data){
