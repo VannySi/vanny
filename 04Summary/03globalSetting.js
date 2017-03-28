@@ -25,3 +25,16 @@
     win.addEventListener(resizeEvt, recalc, false);
     doc.addEventListener('DOMContentLoaded', recalc, false);
 })(document, window);
+
+/**
+ * 全局变量，设置命名空间
+ * */
+var GLOBAL = {};
+GLOBAL.namespace = function (str) {
+    var arr = str.split('.'),
+        o = GLOBAL;
+    for(i = (arr[0] == 'GLOBAL') ? 1 : 0; i < arr.length; i++){
+        o[arr[i]] = o[arr[i]] || {};
+        o = o[arr[i]];
+    }
+};
