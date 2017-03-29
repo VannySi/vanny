@@ -49,4 +49,7 @@
 	valueOf()	返回数组本身
 	join()		返回成字符串
 	JavaScript高级程序设计
-	
+## 面向对象(Object Oriented)
+	OOA Object Oriented Analysis    面向对象分析
+	OOD Object Oriented Design      面向对象设计
+	OOP Object Oriented Programming 面向对象的程序设计
