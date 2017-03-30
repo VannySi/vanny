@@ -39,6 +39,9 @@
     `$ gitk`  
 6. 彩色的git输出  
     `$ git config color.ui true`
+7. 对比打包  
+    `$ git archive -o 1.zip HEAD $(git diff master --name-only --diff-filter=d)`  
+    `$ git diff master --name-only --diff-filter=D >> delete.txt`
     
 ## 答疑解惑
 > warning: push.default is unset; its implicit value is changing in Git 2.0 from 'matching' to 'simple'. 
