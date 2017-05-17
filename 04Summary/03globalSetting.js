@@ -33,7 +33,7 @@ var GLOBAL = {};
 GLOBAL.namespace = function (str) {
     var arr = str.split('.'),
         o = GLOBAL;
-    for(i = (arr[0] == 'GLOBAL') ? 1 : 0; i < arr.length; i++){
+    for(i = (arr[0] === 'GLOBAL') ? 1 : 0; i < arr.length; i++){
         o[arr[i]] = o[arr[i]] || {};
         o = o[arr[i]];
     }
@@ -58,7 +58,7 @@ function extend(subClass, superClass) {
     subClass.prototype = new F();
     subClass.prototype.constructor = subClass;
     subClass.superClass = superClass.prototype;
-    if(superClass.prototype.constructor == Object.prototype.constructor){
+    if(superClass.prototype.constructor === Object.prototype.constructor){
         superClass.prototype.constructor = superClass;
     }
 }

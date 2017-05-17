@@ -16,7 +16,7 @@ function sign(url, itemId, userId) {
     //获取优惠券token
     $.post(url, res, function(data){
         var result = data;
-        if(result.status == 1){
+        if(result.status === 1){
             var outBizNo = Math.round(new Date().getTime() / 1000);
             AlipayJSBridge.call('openRpc', {
                 operationType: 'alipay.mobilepromo.offlinetaobao.item.purchase',
@@ -57,9 +57,9 @@ function alipay(data) {
             tradeNO: data
         }, function (res) {
             if (res.resultCode) {
-                if (res.resultCode == 9000) {
+                if (res.resultCode === 9000) {
                     // 支付失败
-                } else if (res.resultCode == 6001) {
+                } else if (res.resultCode === 6001) {
                     alert('支付失败');
                 } else {
                     alert(res.resultCode);

@@ -5,9 +5,9 @@
  * */
 function objConvertString(value, index) {
     var res = '';
-    if(typeof value == 'object'){
+    if(typeof value === 'object'){
         for(var i in value){
-            res += '&' + objConvertString(value[i], index == undefined ? i: index + '[' + ']');
+            res += '&' + objConvertString(value[i], index === undefined ? i: index + '[' + ']');
         }
     } else {
         return index + '=' + encodeURI(value);
