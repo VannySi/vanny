@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h2>批处理</h2>
+	<script>
+		/**
+		 * 通过递归调用让函数支持多维数组
+		 * @param fName 需要调用的函数名称
+		 * @param arr 参数数组
+		 * @param key 需要传递的参数位置，默认为0
+		 * @param check 是否需要检测函数的合法性，默认为true
+		 * @return 返回对param的运行结果
+		 */
+		function fn2array(fName, arr, key, check){
+			key = key || 0, check = check || true;
+			// 从外部调用时默认检测函数是否存在，多维数组递归时忽略
+			if(fName && typeof fName !== 'function'){
+				return false;
+			}
+
+			// 如果目标不是数组则可以执行
+			var content = arr[key];
+			if (typeof content !== 'object') {
+				return fName(arr, key);
+			}
+
+			// 如果目标是数组则递归执行
+			for(var i in content){
+				arr[key] = content[i];
+				fn2array(fName, arr, key, false);
+			}
+
+			return content;
+		}
+
+		var arr = [{'aaa' : [{'a': 'bb'},{'sed': '44'}]}, 
+		{'bbb' : [{'ssee': 'wewe'},{'wewe': '44'}]},'222', '333'];
+		function abc(abc, key){
+			key = key || 0;
+			document.writeln('<p>' + abc[key] + '</p>');
+		}
+		function p_substr(arr, key){
+			key = key || 0;
+			var str = arr[key];
+			document.writeln('<p>' + str.substr(arr[1], arr[2]) + '</p>');
+		}
+		function addDom(){
+			
+		}
+		fn2array(p_substr, [arr, 0, 2]);
+		// fn2array(abc, [arr]);
+	</script>
+	<h2>自动加载</h2>
+	<script>
+
+	</script>
+	<h2>参数映射</h2>
+	<script>
+	var arr1 = {
+		a : 'a',
+		b : 'b'
+	};
+		function params(arr){
+			var str = '';
+			// key = key || 0;
+			// var content = arr;
+			// if(key !== undefined){
+			// 	console.log(key); 
+			// }
+			// 如果目标不是数组则可以执行
+			// if (typeof arr !== 'object') {
+			// 	// console.log(key === undefined ? null : key)
+			// 	// return i === undefined ? null : i;
+			// 	// return fName(arr, key);
+			// 	return;
+			// }
+
+			// 如果目标是数组则递归执行
+			if(typeof arr === 'object'){
+				for(var i in arr){
+					// arr = content[i];
+					if(params(arr[i])){
+						str += '[' + i + ']' + params(arr[i]);
+					} else {
+						str += '[' + i + ']';
+						// console.log(str)
+						// return str;
+					}
+				}
+			} else {
+				// console.log(str)
+				return ''; 
+			}
+			console.log(str)
+			return str;
+		}
+		params(arr1);
+
+	</script>
+</body>
+</html>
