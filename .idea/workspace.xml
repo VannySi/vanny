@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cc8cf65-6e8a-4449-affc-3c82f7afa356" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00NoteBook/01Markdown.md" afterPath="$PROJECT_DIR$/00NoteBook/01Markdown.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CLEANME.md" afterPath="$PROJECT_DIR$/CLEANME.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CLEANME.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="Vanny.iws" />
@@ -33,12 +33,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="01Markdown.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01Markdown.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00NoteBook/01Markdown.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="660">
-                <caret line="119" column="3" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="119" selection-end-column="3" />
+              <first_editor relative-caret-position="635">
+                <caret line="114" column="11" lean-forward="true" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="525">
+                <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -145,8 +158,8 @@
         <option value="$PROJECT_DIR$/04Summary/01objConvertString.js" />
         <option value="$PROJECT_DIR$/04Summary/08verification.js" />
         <option value="$PROJECT_DIR$/04Summary/08isType.js" />
-        <option value="$PROJECT_DIR$/CLEANME.md" />
         <option value="$PROJECT_DIR$/00NoteBook/01Markdown.md" />
+        <option value="$PROJECT_DIR$/CLEANME.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -179,8 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,6 +276,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -467,7 +480,8 @@
       <workItem from="1494987334237" duration="3221000" />
       <workItem from="1495071213251" duration="641000" />
       <workItem from="1495679219274" duration="2433000" />
-      <workItem from="1495764975353" duration="5316000" />
+      <workItem from="1495764975353" duration="5370000" />
+      <workItem from="1495849042982" duration="2829000" />
     </task>
     <task id="LOCAL-00001" summary="ES6学习笔记">
       <created>1490612959343</created>
@@ -501,7 +515,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="515343000" />
+    <option name="totallyTimeSpent" value="518226000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -513,20 +527,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18456884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14658849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14818764" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -608,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5022">
           <caret line="186" column="34" lean-forward="false" selection-start-line="186" selection-start-column="34" selection-end-line="186" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -616,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
           <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1647">
           <caret line="61" column="45" lean-forward="false" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,9 +656,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="60" column="43" lean-forward="false" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
-          <folding>
-            <element signature="e#1678#2785#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,7 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -667,7 +671,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="675">
             <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -677,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,18 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CLEANME.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="459">
-            <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -713,7 +702,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -724,7 +712,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2619">
             <caret line="97" column="23" lean-forward="false" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -735,7 +722,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="795">
             <caret line="71" column="4" lean-forward="false" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="17" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -746,7 +732,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="823">
             <caret line="54" column="45" lean-forward="false" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -757,7 +742,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="701">
             <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -768,7 +752,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -778,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +776,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -806,7 +786,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -817,100 +796,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-78">
             <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-            <folding>
-              <marker date="1491881114551" expanded="true" signature="2621:2642" ph="//..." />
-              <marker date="1491881114551" expanded="true" signature="2808:2836" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="3078:3097" ph="{...}" />
-              <marker date="1491881114551" expanded="false" signature="3242:3307" ph="..." />
-              <marker date="1491881114551" expanded="true" signature="3678:3700" ph="//..." />
-              <marker date="1491881114551" expanded="true" signature="3841:3876" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="3964:3996" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="4218:4308" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="4232:4277" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="4635:4664" ph="//..." />
-              <marker date="1491881114551" expanded="true" signature="4782:4806" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="5064:5083" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="5097:5116" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="5507:5584" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="5541:5575" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="5609:5620" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="5809:5894" ph="{&quot;namespace&quot;: 'todos'...}" />
-              <marker date="1491881114551" expanded="true" signature="5895:5984" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="6275:6409" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="6302:6351" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="6469:6639" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="6487:6541" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="6553:6637" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="6711:6762" ph="..." />
-              <marker date="1491881114551" expanded="true" signature="7190:7213" ph="/*...*/" />
-              <marker date="1491881114551" expanded="true" signature="7217:7259" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="7218:7258" ph="/*...*/" />
-              <marker date="1491881114551" expanded="true" signature="7262:7286" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="7412:7465" ph="{&quot;href&quot;: 'http://example.org'...}" />
-              <marker date="1491881114551" expanded="true" signature="7529:7582" ph="{&quot;href&quot;: 'http://example.org'...}" />
-              <marker date="1491881114551" expanded="true" signature="7850:7887" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="7904:7950" ph="{&quot;name&quot;: React.PropTypes.string.isRequired...}" />
-              <marker date="1491881114551" expanded="true" signature="8796:8813" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="8830:8849" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="9196:9359" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="9223:9319" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="9641:10103" ph="{&quot;namespace&quot;: 'todos'...}" />
-              <marker date="1491881114551" expanded="true" signature="9690:10100" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="9726:9766" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="9803:9861" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="9907:10095" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="9940:9958" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="9982:10039" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10045:10079" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10198:10414" ph="{&quot;namespace&quot;: 'app'...}" />
-              <marker date="1491881114551" expanded="true" signature="10229:10269" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10283:10411" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10319:10406" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10465:10801" ph="{&quot;namespace&quot;: 'app'...}" />
-              <marker date="1491881114551" expanded="true" signature="10496:10580" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10505:10575" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10516:10568" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10594:10798" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10630:10793" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="10849:10934" ph="{&quot;namespace&quot;: 'todos'...}" />
-              <marker date="1491881114551" expanded="true" signature="10935:11024" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="11482:11543" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="11507:11540" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="11689:11720" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="11721:11825" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="11733:11768" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="11778:11819" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12043:12098" ph="{&quot;method&quot;: 'POST'...}" />
-              <marker date="1491881114551" expanded="true" signature="12158:12195" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12284:12404" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12348:12383" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12727:12962" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12746:12959" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12781:12954" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12822:12844" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12859:12938" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="12880:12926" ph="{&quot;type&quot;: 'users/fetch'...}" />
-              <marker date="1491881114551" expanded="true" signature="13298:13361" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="13923:13966" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="13934:13963" ph="{&quot;users&quot;: state.users...}" />
-              <marker date="1491881114551" expanded="true" signature="14496:14551" ph="{&quot;pathname&quot;: '/logout'...}" />
-              <marker date="1491881114551" expanded="true" signature="14530:14548" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="14842:14873" ph="{...}" />
-              <marker date="1491881114551" expanded="true" signature="15032:15062" ph="{&quot;history&quot;: browserHistory...}" />
-              <marker date="1491881114551" expanded="true" signature="15123:15207" ph="..." />
-              <marker date="1491881114551" expanded="true" signature="15224:15296" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="702">
-            <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -919,8 +804,30 @@
     <entry file="file://$PROJECT_DIR$/00NoteBook/01Markdown.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="660">
-            <caret line="119" column="3" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="119" selection-end-column="3" />
+          <first_editor relative-caret-position="635">
+            <caret line="114" column="11" lean-forward="true" selection-start-line="114" selection-start-column="11" selection-end-line="114" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CLEANME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="405">
+            <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="525">
+            <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
