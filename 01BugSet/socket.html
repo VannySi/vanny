@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h2>WebSocket</h2>
+	<script type="text/javascript">
+		// 人家是测试数据，请多多指教
+		var param = {
+			"method": "user.login",
+			"version": "1.0",
+			"global": "",
+			"args": {
+				"user": "chen1",
+				"pass": "670b14728ad9902aecba32e22fa4f6bd"
+			},
+			"callback": "anything"
+		};
+
+		// 创建一个Socket实例
+		var socket = new WebSocket('ws://101.37.202.167:8888'); 
+
+		// 打开Socket 
+		socket.onopen = function(event) { 
+			document.writeln('<p>' + new Date().toLocaleTimeString() + ' 链接成功啦~初次见面，请主人多加关照~</p>');
+			// alert('链接成功啦~初次见面，请主人多加关照~');
+            socket.send(JSON.stringify(param));
+            document.writeln('<p>' + new Date().toLocaleTimeString() + ' 我正在帮主人发送数据哟~</p>');
+
+            socket.onclose = function(){
+                document.writeln('<p>' + new Date().toLocaleTimeString() + ' 可怜哒我被关闭了嘤嘤嘤</p>');
+            };
+
+			// 监听消息
+			socket.onmessage = function(event) { 
+				console.log(event)
+				document.writeln('<p>' + new Date().toLocaleTimeString() + ' 我监听到消息啦~</p>');
+				var received_msg = event.data;
+                // document.writeln("<p>数据已接收..." + JSON.parse(event) + '</p>');
+			    document.writeln('<p>' + new Date().toLocaleTimeString() + ' 数据已接收，正在读取：' + received_msg + '</p>'); 
+			    socket.close();
+			}; 
+		};
+	</script>
+	<h2>socket.io</h2>
+	<script src="https://cdn.bootcss.com/socket.io/2.0.1/socket.io.js"></script>
+	<script type="text/javascript">
+		// var socket = io('ws://101.37.202.167:8888');
+		// socket.on('connect', function(){
+		// 	document.writeln('链接成功，我的ID是' + socket.id + '，很高兴为您服务');
+		// });
+		// socket.on('event', function(data){});
+		// socket.on('disconnect', function(){});
+		// socket.on('chat message', message => {
+		// 	const messages = this.state.data.messages
+
+		// })
+		// console.log(socket);
+	</script>
+</body>
+</html>

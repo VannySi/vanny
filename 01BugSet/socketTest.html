@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WebSocket与Socket.io的兼容性测试</title>
+</head>
+<body>
+	<h2>WebSocket</h2>
+	<script type="text/javascript">
+		// 人家是测试数据，请多多指教
+		var param = {
+			"method": "user.login",
+			"version": "1.0",
+			"global": "",
+			"args": {
+				"user": "chen1",
+				"pass": "000000"
+			},
+			"callback": "anything"
+		};
+		// 创建一个Socket实例
+		var socket = new WebSocket('ws://101.37.202.167:8888'); 
+
+		// 打开Socket 
+		socket.onopen = function(event) { 
+			document.writeln('链接成功啦~初次见面，请主人多加关照~');
+            webSocket.send(JSON.stringify(param));
+            document.writeln('我正在帮主人发送数据哟~');
+
+			// 监听消息
+			socket.onmessage = function(event) { 
+				document.writeln('我监听到消息啦~');
+				var received_msg = event.data;
+                document.writeln("数据已接收...", event);
+			    document.writeln(received_msg); 
+			    socket.close();
+			    document.writeln('可怜哒我被关闭了嘤嘤嘤');
+			}; 
+		};
+	</script>
+	<h2>socket.io</h2>
+	<script src="https://cdn.bootcss.com/socket.io/2.0.1/socket.io.js"></script>
+	<script type="text/javascript">
+		var socket = io('ws://101.37.202.167:8888');
+		socket.on('connect', function(){
+			document.writeln('链接成功，我的ID是' + socket.id);
+		});
+		// socket.on('event', function(data){});
+		// socket.on('disconnect', function(){});
+		// socket.on('chat message', message => {
+		// 	const messages = this.state.data.messages
+
+		// })
+		// console.log(socket);
+	</script>
+</body>
+</html>
